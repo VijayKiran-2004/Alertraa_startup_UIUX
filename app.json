@@ -28,8 +28,8 @@
     "web": {
       "favicon": "./assets/favicon.png",
       "display": "standalone",
-      "scope": "/alertraa-app",
-      "startUrl": "/alertraa-app",
+      "scope": "/Alertraa_startup_UIUX",
+      "startUrl": "/Alertraa_startup_UIUX",
       "orientation": "portrait-primary",
       "theme_color": "#1a73e8",
       "background_color": "#ffffff"

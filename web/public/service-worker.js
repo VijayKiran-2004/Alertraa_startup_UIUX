@@ -1,9 +1,9 @@
 // Service Worker for Alertraa PWA
 const CACHE_NAME = 'alertraa-v1';
 const urlsToCache = [
-  '/alertraa-app/',
-  '/alertraa-app/index.html',
-  '/alertraa-app/favicon.png',
+  '/Alertraa_startup_UIUX/',
+  '/Alertraa_startup_UIUX/index.html',
+  '/Alertraa_startup_UIUX/favicon.png',
 ];
 
 // Install event - cache resources
@@ -65,7 +65,7 @@ self.addEventListener('fetch', (event) => {
         return response;
       }).catch(() => {
         // Return a fallback response if both cache and network fail
-        return caches.match('/alertraa-app/index.html');
+        return caches.match('/Alertraa_startup_UIUX/index.html');
       });
     })
   );
