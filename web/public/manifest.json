@@ -1,0 +1,69 @@
+{
+  "name": "Alertraa Health Monitor",
+  "short_name": "Alertraa",
+  "description": "A comprehensive health monitoring and tracking application",
+  "start_url": "/alertraa-app",
+  "scope": "/alertraa-app",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#ffffff",
+  "theme_color": "#1a73e8",
+  "icons": [
+    {
+      "src": "/alertraa-app/favicon.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/alertraa-app/favicon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/alertraa-app/favicon.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/alertraa-app/favicon.png",
+      "sizes": "540x720",
+      "type": "image/png",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "/alertraa-app/favicon.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Health Dashboard",
+      "short_name": "Dashboard",
+      "description": "View your health metrics and progress",
+      "url": "/alertraa-app?tab=home",
+      "icons": [
+        {
+          "src": "/alertraa-app/favicon.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ],
+  "categories": ["health", "medical"],
+  "share_target": {
+    "action": "/alertraa-app/share",
+    "method": "POST",
+    "enctype": "multipart/form-data",
+    "params": {
+      "title": "title",
+      "text": "text"
+    }
+  }
+}
